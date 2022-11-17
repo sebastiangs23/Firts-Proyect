@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../style'
 import { discount, robot } from "../assets"
-import GetStarted  from "./GetStarted"
+import GetStarted from "./GetStarted"
 
 const Hero = () => {
   return (
@@ -18,23 +18,36 @@ const Hero = () => {
           </p>
 
         </div>
-      </div>
 
-      <div className='flex flex-row justify-between items-center w-full' >
-        <h1 className='flex-1 font-poppins font-semibold ss:text-[72px]
+
+        <div className='flex flex-row justify-between items-center w-full' >
+          <h1 className='flex-1 font-poppins font-semibold ss:text-[62px]
                        text-[52px] text-white ss:leading-[100px] ' >
-          The Next <br className='sm:block hidden' /> {" "}
+            Best {" "}
+            <span className='text-gradient'>
+              Cryptocurrency <br className='sm:block hidden' /> {" "}
+            </span> {" "}
+            software to connect with {" "}
+          </h1>
+
+          <div className='ss:flex hidden md:mr-4 mr-0' >
+            <GetStarted />
+          </div>
+        </div>
+
+        <h1 className='font-poppins font-semibold ss:text-[62px]
+                       text-[52px] text-white ss:leading-[100px] w-full ' >
           <span className='text-gradient'>
-            Generation
-          </span> {" "}
-          Payment Method
+            BlockChain.
+          </span>
         </h1>
 
-        <div className='ss:flex hidden md:mr-4 mr-0' >
-          <GetStarted />
-        </div>
-      </div>
+        <p className={`${styles.paragraph} max-w-[470px] mt-5 `} >
+          The next generation of transferring digital assets through blockchain, with low gas fee costs and protocols
+          that support up to 50,000 transactions per second also you can get a TREZOR to feel more secure.
+        </p>
 
+      </div>
     </section>
   )
 }
