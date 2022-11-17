@@ -21,13 +21,13 @@ const Hero = () => {
 
 
         <div className='flex flex-row justify-between items-center w-full' >
-          <h1 className='flex-1 font-poppins font-semibold ss:text-[62px]
+          <h1 className='flex-1 font-poppins font-semibold ss:text-[54px]
                        text-[52px] text-white ss:leading-[100px] ' >
             Best {" "}
             <span className='text-gradient'>
               Cryptocurrency <br className='sm:block hidden' /> {" "}
             </span> {" "}
-            software to connect with {" "}
+            software to connect with 
           </h1>
 
           <div className='ss:flex hidden md:mr-4 mr-0' >
@@ -35,7 +35,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <h1 className='font-poppins font-semibold ss:text-[62px]
+        <h1 className='font-poppins font-semibold ss:text-[54px]
                        text-[52px] text-white ss:leading-[100px] w-full ' >
           <span className='text-gradient'>
             BlockChain.
@@ -46,8 +46,19 @@ const Hero = () => {
           The next generation of transferring digital assets through blockchain, with low gas fee costs and protocols
           that support up to 50,000 transactions per second also you can get a TREZOR to feel more secure.
         </p>
-
       </div>
+
+      <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative `} >
+        <img src={robot} alt="billing" className="w-[100%] h-[100%] relative z-[5] " />
+        <div className='absolute z-[0] w-[40%] h-[30%] top-0 pink__gradient ' />
+        <div className='absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 pink__gradient ' />
+        <div className='absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient ' />
+      </div>
+
+      <div className={`ss:hidden ${styles.flexCenter} `} >
+        <GetStarted />
+      </div>
+
     </section>
   )
 }
