@@ -8,10 +8,10 @@ const CardDeal = () => {
   return (
     <section className={layout.section} >
       <div className={layout.sectionInfo} >
-        <h2 className={styles.heading2} >need to chage this shit<br className='sm:block hidden' /> with my company blablab bla bla.</h2>
+        <h2 className={styles.heading2} >Scan to login and two factor authentification<br className='sm:block hidden' /></h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5 `} >
-          FIND A GOOD DESCRIPTION ABOUT THE HOW THE USER CAN SE THEIR ACTIVITY   elit. Esse, non eaque deserunt tempore ad eum
-          repudiandae aliquid unde quis corporis labore iste, veritatis optio molestias maiores ex quae. Possimus, aliquid!
+          For beginners there are more than 100 tutorial about normal trading and futures trading to learn correctly
+           and your daily/monthly/ yearly earning will be reflected in your dahsboard.
         </p> 
 
         <Button styles="mt-10" /> {/*I guess ill need to create another button component */}

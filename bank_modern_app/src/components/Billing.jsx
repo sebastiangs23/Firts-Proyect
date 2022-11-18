@@ -19,7 +19,7 @@ const Billing = () => {
           the cryptocurrencies.  
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5 `} >
-          Paypal is one of the many companies that started to accept payments in cryptocurrencies such as Mastercard, Starbucks, Norwegian, etc.
+          Paypal is one of the many companies that started to accept payments in cryptocurrencies such as Mastercard, Visa, Starbucks, Norwegian, etc.
         </p>
       </div>
 
