@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Stacking",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Investor who actively hold onto, or lock up their crypto holding in their wallet are participating in a percentage monetary reward depending on the protocol.",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "100% Secured",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "We provide you the information about TREZOR and LEDGE, which are practilly unhackable",
   },
   {
     id: "feature-3",
     icon: send,
     title: "Balance Transfer",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "You can see your actual balance and all the transactions realed to your wallet.",
   },
 ];
 
