@@ -20,7 +20,7 @@ const NavBar = () => {
             className={`font-poppins font-normal cursor-pointer text-[16px] 
             ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-white`}
           >
-            <a href={`#${nav.id}`} >
+            <a href={`#${nav.id}`} > {/*this it what makes redirecionate the page when i click ?? */}
               {nav.title}
             </a>
           </li>
