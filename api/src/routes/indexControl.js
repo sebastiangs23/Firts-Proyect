@@ -4,7 +4,21 @@ const APIGECKO = ("https://api.coingecko.com/api/v3/coins/markets?vs_currency=us
 const getApi = async(req,res) => {
     try{
         const allData = await axios.get(APIGECKO)
-        res.json(allData.data)
+        const wrap = []
+
+        allData.data.map((e) => {
+            wrap.push({
+                id: e.id,
+                name: e.name,
+                image: e.image,
+                price: e.current_price,
+                marketCap: e.market_cap,
+                rank: e.market_cap_rank,
+                supply: e.total_supply
+            })
+        }  )
+
+        res.json(wrap)
     }catch(error){
         console.log(error)
     }
