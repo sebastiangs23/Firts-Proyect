@@ -5,9 +5,11 @@ import Business from "./Business";
 import Clients from "./Clients";
 import CTA from "./CTA";
 import Stats from "./Stats";
-import Footer from "./Footer";
+import Redirect from "./Redirect";
 import Testimonials from "./Testimonials";
 import Hero from "./Hero";
+
+import Last from "./Last";
 
 export {
     NavBar,
@@ -17,7 +19,8 @@ export {
     Clients,
     CTA,
     Stats,
-    Footer,
+    Redirect,
     Testimonials,
-    Hero    
+    Hero,
+    Last
 }

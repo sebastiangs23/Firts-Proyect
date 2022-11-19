@@ -1,6 +1,6 @@
 import styles from "./style"
 
-import { NavBar,Hero,Stats,Business,Billing, CardDeal, Testimonials,  Clients, CTA, Footer } from "./components/index.js"
+import { NavBar,Hero,Stats,Business,Billing, CardDeal, Testimonials,  Clients, CTA, Redirect, Last } from "./components/index.js"
 
 const App = () => {
   return (
@@ -22,12 +22,14 @@ const App = () => {
         <div className={`${styles.boxWidth}`} >
           <Stats/>
           <Business/>
+          <Redirect/>
+          <Testimonials/>
           <Billing/>
           <CardDeal/>
-          <Testimonials/>
           <Clients/>
-          <CTA/> {/*I think its not relevant, i try deleting this later*/}
-          <Footer/>
+          
+          
+          <Last/>
         </div>
       </div>
 
