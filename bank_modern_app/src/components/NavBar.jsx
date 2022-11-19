@@ -12,6 +12,12 @@ const NavBar = () => {
   return (
     <nav className='w-full flex py-6 justify-between items-center navbar' >
       <img src={newlogo} alt="hoobank" className='w-[114px] h-[72px] ' />
+      <h1 className='flex-1 font-poppins font-semibold ss:text-[50px]
+                       text-[52px] text-white ss:leading-[100px] ml-5 ' >
+      <span className='text-gradient'>
+        Trust <br className='sm:block hidden' /> {" "}
+      </span>
+      </h1>
 
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
         {navLinks.map((nav, index) => (

@@ -47,7 +47,7 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+      "Bitcoin is a candidate for improve the quality information with witch we conduct the economy.",
     name: "Elon Musk",
     title: "CEO Tesla & Twitter",
     img: people01,
@@ -55,7 +55,7 @@ export const feedback = [
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+      "I belive the cryptocurrencies are the most stable thing.",
     name: "CZ",
     title: "CEO Binance",
     img: people02,
@@ -63,7 +63,7 @@ export const feedback = [
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      'Crypto is "Safer Bet" Than "Incredibly Inconvenient" Gold.',
     name: "Vitalik Buterin",
     title: "Creator of Ethereum",
     img: people03,
@@ -90,66 +90,78 @@ export const stats = [
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Websites",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "Bitcoin",
+        link: "https://bitcoin.org/en/",
       },
       {
-        name: "How it Works",
+        name: "Ethereum",
         link: "https://www.hoobank.com/how-it-works/",
       },
       {
-        name: "Create",
+        name: "Binance",
         link: "https://www.hoobank.com/create/",
       },
       {
-        name: "Explore",
+        name: "Solana",
         link: "https://www.hoobank.com/explore/",
       },
       {
-        name: "Terms & Services",
+        name: "Polkadot",
         link: "https://www.hoobank.com/terms-and-services/",
       },
     ],
   },
   {
-    title: "Community",
+    title: "BlockChain",
     links: [
       {
-        name: "Help Center",
+        name: "BitcoinScan",
         link: "https://www.hoobank.com/help-center/",
       },
       {
-        name: "Partners",
+        name: "EtherScan",
         link: "https://www.hoobank.com/partners/",
       },
       {
-        name: "Suggestions",
+        name: "BscScan",
         link: "https://www.hoobank.com/suggestions/",
       },
       {
-        name: "Blog",
+        name: "SolScan",
         link: "https://www.hoobank.com/blog/",
       },
       {
-        name: "Newsletters",
+        name: "PolkaScan",
         link: "https://www.hoobank.com/newsletters/",
       },
     ],
   },
   {
-    title: "Partner",
+    title: "Wallets",
     links: [
       {
-        name: "Our Partner",
+        name: "Metamask",
         link: "https://www.hoobank.com/our-partner/",
       },
       {
-        name: "Become a Partner",
+        name: "Phantom Wallet",
         link: "https://www.hoobank.com/become-a-partner/",
       },
+      {
+        name: "Ronin Wallet",
+        link: "https://www.hoobank.com/become-a-partner/",
+      },
+      {
+        name: "Hive",
+        link: "https://www.hoobank.com/become-a-partner/",
+      },
+      {
+        name: "Wax Wallet",
+        link: "https://www.hoobank.com/become-a-partner/",
+      }
     ],
   },
 ];
