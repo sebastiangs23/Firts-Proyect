@@ -8,17 +8,27 @@ const getApi = async(req,res) => {
 
         allData.data.map((e) => {
             wrap.push({
-                id: e.id,
                 name: e.name,
+                symbol: e.symbol,
                 image: e.image,
                 price: e.current_price,
                 marketCap: e.market_cap,
                 rank: e.market_cap_rank,
+                volumen: e.total_volume,
                 supply: e.total_supply
             })
         }  )
 
         res.json(wrap)
+    }catch(error){
+        console.log(error)
+    }
+}
+
+const getApisend = async(req,res) => {
+    try{
+        const sendFront = await(getApi)
+        res.send(sendFront)
     }catch(error){
         console.log(error)
     }

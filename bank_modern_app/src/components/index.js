@@ -8,6 +8,7 @@ import Stats from "./Stats";
 import Redirect from "./Redirect";
 import Testimonials from "./Testimonials";
 import Hero from "./Hero";
+import Cryptos from "./cryptos";
 
 import Last from "./Last";
 
@@ -22,5 +23,7 @@ export {
     Redirect,
     Testimonials,
     Hero,
-    Last
+    Last,
+
+    Cryptos
 }
