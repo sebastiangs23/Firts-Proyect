@@ -9,6 +9,7 @@ import Redirect from "./Redirect";
 import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 import Cryptos from "./cryptos";
+import WrapHome from "./WrapHome";
 
 import Last from "./Last";
 
@@ -25,5 +26,7 @@ export {
     Hero,
     Last,
 
-    Cryptos
+    Cryptos,
+
+    WrapHome
 }
