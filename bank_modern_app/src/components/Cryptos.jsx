@@ -15,11 +15,13 @@ const Cryptos = () => {
         <table className='cryptos-conteiner h-[140px] bg-blue-gradient '>
             <thead>
                 <tr>
+                    <td>Rank</td>
+                    <td>Coin</td>
                     <td>name</td>
                     <td>symbol</td>
                     <td>Price</td>
                     <td>MarketCap</td>
-                    <td>Rank</td>
+
                     <td>Volumen</td>
                     <td>Supply</td>
                 </tr>
@@ -30,8 +32,15 @@ const Cryptos = () => {
                     return (
                         <tr>
                             <td >
+                                {c.rank}
+                            </td>
+                            <td >
+                                <img src={c.image} className="w-[28px] h-[27px]" />
+                            </td>
+                            <td >
                                 {c.name}
                             </td>
+
                             <td >
                                 {c.symbol}
                             </td>
@@ -42,18 +51,12 @@ const Cryptos = () => {
                                 {c.marketCap}
                             </td>
                             <td >
-                                {c.rank}
-                            </td>
-                            <td >
                                 {c.volumen}
                             </td>
                             <td >
                                 {c.supply}
                             </td>
 
-                            <td >
-                                <img src={c.image} />
-                            </td>
                         </tr>
                     )
                 }
