@@ -27,6 +27,5 @@ export {
     Last,
 
     Cryptos,
-
     WrapHome
 }
