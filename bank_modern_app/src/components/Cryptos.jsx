@@ -16,6 +16,12 @@ const Cryptos = () => {
             <thead>
                 <tr>
                     <td>name</td>
+                    <td>symbol</td>
+                    <td>Price</td>
+                    <td>MarketCap</td>
+                    <td>Rank</td>
+                    <td>Volumen</td>
+                    <td>Supply</td>
                 </tr>
 
             </thead>
@@ -28,6 +34,25 @@ const Cryptos = () => {
                             </td>
                             <td >
                                 {c.symbol}
+                            </td>
+                            <td >
+                                {c.price}
+                            </td>
+                            <td >
+                                {c.marketCap}
+                            </td>
+                            <td >
+                                {c.rank}
+                            </td>
+                            <td >
+                                {c.volumen}
+                            </td>
+                            <td >
+                                {c.supply}
+                            </td>
+
+                            <td >
+                                <img src={c.image} />
                             </td>
                         </tr>
                     )
