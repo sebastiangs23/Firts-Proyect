@@ -11,7 +11,7 @@ export const navLinks = [
   },
   {
     id: "product",
-    title: "Links",
+    title: "BlockChain",
   },
   {
     id: "tutorials",
