@@ -63,7 +63,7 @@ export const feedback = [
   {
     id: "feedback-3",
     content:
-      'Crypto is "Safer Bet" Than "Incredibly Inconvenient" Gold.',
+      'Crypto is "Safer Bet" Than Incredibly Inconvenient Gold.',
     name: "Vitalik Buterin",
     title: "Creator of Ethereum",
     img: people03,

@@ -16,7 +16,8 @@ const Testimonials = () => {
         </h1>
         <div className='w-full md:mt-0 mt-6'>
           <p className={`${styles.paragraph} text-left max-w-[450px] `} >
-            Everything blablablabl need to change this shitty thing.
+            "They are an alternative, safe and efficient way to exchange goods or services that positively affect 
+            the economy due to their descentralization, great liquidity and flexibility."
           </p>
         </div>
       </div>
