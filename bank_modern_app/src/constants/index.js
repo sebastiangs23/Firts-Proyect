@@ -6,16 +6,16 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "learn",
+    title: "Learn",
   },
   {
     id: "product",
-    title: "Product",
+    title: "Links",
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "tutorials",
+    title: "Tutorials",
   },
 ];
 
@@ -98,19 +98,19 @@ export const footerLinks = [
       },
       {
         name: "Ethereum",
-        link: "https://www.hoobank.com/how-it-works/",
+        link: "https://ethereum.org/en/",
       },
       {
         name: "Binance",
-        link: "https://www.hoobank.com/create/",
+        link: "https://www.binance.com/en",
       },
       {
         name: "Solana",
-        link: "https://www.hoobank.com/explore/",
+        link: "https://solana.com/",
       },
       {
         name: "Polkadot",
-        link: "https://www.hoobank.com/terms-and-services/",
+        link: "https://polkadot.network/",
       },
     ],
   },
@@ -119,23 +119,23 @@ export const footerLinks = [
     links: [
       {
         name: "BitcoinScan",
-        link: "https://www.hoobank.com/help-center/",
+        link: "https://btcscan.org/",
       },
       {
         name: "EtherScan",
-        link: "https://www.hoobank.com/partners/",
+        link: "https://etherscan.io/",
       },
       {
         name: "BscScan",
-        link: "https://www.hoobank.com/suggestions/",
+        link: "https://bscscan.com/",
       },
       {
         name: "SolScan",
-        link: "https://www.hoobank.com/blog/",
+        link: "https://solscan.io/",
       },
       {
         name: "PolkaScan",
-        link: "https://www.hoobank.com/newsletters/",
+        link: "https://polkadot.subscan.io/",
       },
     ],
   },
@@ -144,23 +144,23 @@ export const footerLinks = [
     links: [
       {
         name: "Metamask",
-        link: "https://www.hoobank.com/our-partner/",
+        link: "https://metamask.io/",
       },
       {
         name: "Phantom Wallet",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "https://phantom.app/",
       },
       {
         name: "Ronin Wallet",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "https://wallet.roninchain.com/",
       },
       {
         name: "Hive",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "https://hive.io/",
       },
       {
         name: "Wax Wallet",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "https://all-access.wax.io/",
       }
     ],
   },
@@ -185,7 +185,7 @@ export const socialMedia = [
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/in/sebastian-gomez-salinas-510586246/",
   },
 ];
 

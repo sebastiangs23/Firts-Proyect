@@ -21,7 +21,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 
 const Business = () => {
   return (
-    <section id="features" className={layout.section}>
+    <section id="learn" className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
           You have the possibility , <br className="sm:block hidden" /> to learn how to trade properly.
@@ -31,7 +31,7 @@ const Business = () => {
           You can have a part of your portfolio in stablecoins until you feel confident with the inverst you will make.
         </p>
 
-        <Button styles={`mt-10`} />
+        <Button styles={`mt-10`}  />
       </div>
 
       <div className={`${layout.sectionImg} flex-col`}>
