@@ -18,7 +18,7 @@ app.use((req,res,next) => {
 })
 
 //setear nuestrar rutas
-app.use("/home", route)
+app.use("/", route)
 
 //Middleware manejo de errores 
 app.use((err,req,res,next)=>{
@@ -29,13 +29,6 @@ app.use((err,req,res,next)=>{
 })
 
 
-// const dbConfig = {
-//     host:  process.env.DB_HOST ,
-//     port:  process.env.DB_PORT  ,
-//     user:  process.env.DB_USER  ,
-//     password:  process.env.DB_PASSSWORD  ,
-//     database:  process.env.DB_NAME  
-// }
 
 const { DB_HOST, DB_NAME, DB_USER, DB_PORT, DB_PASSWORD } = require("./config")
 

@@ -5,6 +5,6 @@ const geckoroute = require("./routes/coinroute")
 
 const router = Router()
 
-router.use("/market",geckoroute)
+router.use("/",geckoroute)
 
 module.exports = router
