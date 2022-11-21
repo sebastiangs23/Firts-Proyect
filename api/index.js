@@ -2,6 +2,7 @@ const express = require("express")
 const morgan = require("morgan")
 const route = require("./src/mainroutes")
 const app = express();
+// const conn = require("express-myconnection")
 
 
 //Setear los headers y parsear a json
@@ -14,7 +15,7 @@ app.use((req,res,next) => {
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept")
     res.header("Access-Control-Allow-Methods", "GET, POST, OPTIONS, PUT, DELETE")
     next()
-} )
+})
 
 //setear nuestrar rutas
 app.use("/home", route)
@@ -28,7 +29,22 @@ app.use((err,req,res,next)=>{
 })
 
 
+// const dbConfig = {
+//     host:  process.env.DB_HOST ,
+//     port:  process.env.DB_PORT  ,
+//     user:  process.env.DB_USER  ,
+//     password:  process.env.DB_PASSSWORD  ,
+//     database:  process.env.DB_NAME  
+// }
+
+const { DB_HOST, DB_NAME, DB_USER, DB_PORT, DB_PASSWORD } = require("./config")
+
+
+const port = process.env.PORT || 3005;
+
+
+
 //app.listen //don
-app.listen(3005, () => {
+app.listen(port, () => {
     console.log("Servidor levantado en el puerto 3005")
 } )
