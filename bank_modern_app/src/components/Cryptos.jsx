@@ -95,7 +95,8 @@ const Cryptos = () => {
 
 
             <div className='grid grid-cols-1 gap-4 md:hidden' >
-                
+                <div className='absolute z-[0] w-[75%] h-[80%]  blue__gradient ' />
+
 
                 <div className=' p-4 rounded-lg shadow' > //chage
                     <div className='text-white sm:mr-5 mr-0 hoverscale-105 flex flex-row p-6 rounded-[20px] feature-card space-x-5' >
@@ -137,7 +138,7 @@ const Cryptos = () => {
                 </div>
             </div>
 
-            <div className='absolute z-[0] w-[95%] h-[80%] right-20 bottom-20 blue__gradient ' />
+
 
         </div>
     )
