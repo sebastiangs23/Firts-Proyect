@@ -4,7 +4,7 @@ import styles, { layout } from '../style'
 
 const Billing = () => {
   return (
-    <section className={layout.sectionImgReverse} >
+    <section className={layout.sectionReverse} >
       <div className={layout.sectionImgReverse} >
         <img src={bill} alt="billing" className="w-[100%] h-[100&] relative z-[5]  " />
 
