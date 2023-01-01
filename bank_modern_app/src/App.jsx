@@ -1,7 +1,7 @@
 import React from "react"
 import { BrowserRouter as Router, Routes, Route, } from "react-router-dom"
 
-import { Cryptos, WrapHome } from "./components/index.js"
+import { Cryptos, WrapHome} from "./components/index.js"
 
 const App = () => {
 

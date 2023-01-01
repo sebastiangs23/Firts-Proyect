@@ -1,8 +1,8 @@
 import NavBar from "./NavBar";
-import Billing from "./Billing";
-import CardDeal from "./CardDeal";
-import Business from "./Business";
-import Clients from "./Clients";
+import CreditCard from "./CreditCard";
+import Plans from "./Plans";
+import Benefits from "./Benefits";
+import Sponsor from "./Sponsor";
 import CTA from "./CTA";
 import Stats from "./Stats";
 import Redirect from "./Redirect";
@@ -15,10 +15,10 @@ import Last from "./Last";
 
 export {
     NavBar,
-    Billing,
-    CardDeal,
-    Business,
-    Clients,
+    CreditCard,
+    Plans,
+    Benefits,
+    Sponsor,
     CTA,
     Stats,
     Redirect,

@@ -1,13 +1,15 @@
 import React from 'react'
 import styles from '../style'
+// import "./scroll.css";
 
-import { NavBar, Hero, Stats, Business, Billing, CardDeal, Testimonials, Clients, CTA, Redirect, Last, Cryptos } from "./index.js"
+import { NavBar, Hero, Stats, Benefits, CreditCard, Plans, Testimonials, Sponsor, CTA, Redirect, Last, Cryptos } from "./index.js"
 
 
 const WrapHome = () => {
   return (
     <div className="bg-primary w-full overflow-hidden" >
 
+      <div className='scrollnew' > //prueba dentro
         <div className={`${styles.paddingX} ${styles.flexCenter}`} >
           <div className={`${styles.boxWidth}`} >
             <NavBar />
@@ -24,17 +26,19 @@ const WrapHome = () => {
         <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`} >
           <div className={`${styles.boxWidth}`} >
             <Stats />
-            <Business />
-            <Redirect />
+            <CreditCard />
+            <Plans />
+            <Benefits />
             <Testimonials />
-            <Billing />
-            <CardDeal />
-            <Clients />
-
-
+            <Redirect />
+            <Sponsor />
             <Last />
           </div>
         </div>
+
+      </div>
+
+
 
     </div>
   )

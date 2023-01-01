@@ -19,16 +19,16 @@ const FeatureCard = ({ icon, title, content, index }) => (
   </div>
 );
 
-const Business = () => {
+const Benefits = () => {
   return (
-    <section id="learn" className={layout.section}>
+    <section id='benefits' className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
-          You have the possibility , <br className="sm:block hidden" /> to learn how to trade properly.
+          Discover our Benefits <br className="sm:block hidden" />
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5 `} >
           Improve your finantial life, investing in the best projects and protocols that are changing the world throgh their new tecnologies.
-          You can have a part of your portfolio in stablecoins until you feel confident with the inverst you will make.
+          We will assign you a finantian advisor,who whill give you an introduction and tech you step by step how to operate in the market.
         </p>
 
         <Button styles={`mt-10`}  />
@@ -46,4 +46,4 @@ const Business = () => {
   )
 }
 
-export default Business
+export default Benefits

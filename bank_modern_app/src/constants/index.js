@@ -1,4 +1,9 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import {
+  people01, people02, people03, facebook, instagram, linkedin,
+  twitter, airbnb, binance, coinbase, dropbox, send, shield,
+  star, coingecko, cryptocom, binancelogo, coinbaselogo, nasdaq,money, savehand, security, bank,
+  market, dollar, interest
+} from "../assets";
 
 export const navLinks = [
   {
@@ -6,42 +11,61 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "learn",
-    title: "Learn",
+    id: "cards", ///cards
+    title: "Cards",
   },
   {
-    id: "product",
-    title: "BlockChain",
+    id: "plans",
+    title: "Plans",
   },
   {
-    id: "tutorials",
-    title: "Tutorials",
+    id: "benefits",
+    title: "Benefits",
   },
 ];
 
 export const features = [
   {
+    id: "feature-3",
+    icon: bank,
+    title: "Bank Transfer",
+    content:
+      "Make transfers from your wallet to any bank in the world with low commision costs.",
+  },
+  {
+    id: "feature-2",
+    icon: security,
+    title: "100% Secured",
+    content:
+      "When you opening your Trust account, we provide you with a TREZOR and LEDGE, which are unhackable devices to store your assets. ",
+  },
+  {
     id: "feature-1",
-    icon: star,
+    icon: savehand,
     title: "Stacking",
     content:
       "Investor who actively hold onto, or lock up their crypto holding in their wallet are participating in a percentage monetary reward depending on the protocol.",
   },
-  {
-    id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
-    content:
-      "We provide you the information about TREZOR and LEDGE, which are practilly unhackable",
-  },
-  {
-    id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
-    content:
-      "You can see your actual balance and all the transactions realed to your wallet.",
-  },
+  
 ];
+
+export const billingC = [
+  {
+    id: "billing1",
+    icon: market,
+    content: "Make Payments in more than 20 000 commercial establishments that accept mastercard.",
+  },
+  {
+    id: "billing2",
+    icon: dollar,
+    content: "Hold and exchange cryptocurrencies / dollars when you make paymentes."
+  },
+  {
+    id: "billing3",
+    icon: interest,
+    content: "Low interest rates, and access to our Hold Strategies, in witch by stacking cryptocurrencies, the interest is reduced."
+  }
+]
 
 export const feedback = [
   {
@@ -79,12 +103,12 @@ export const stats = [
   {
     id: "stats-2",
     title: "Trusted by Company",
-    value: "55+",
+    value: "25+",
   },
   {
     id: "stats-3",
     title: "Trading Volume",
-    value: "$170M+",
+    value: "$90M+",
   },
 ];
 
@@ -192,18 +216,22 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
-    logo: airbnb,
+    logo: nasdaq,
   },
   {
     id: "client-2",
-    logo: binance,
+    logo: binancelogo,
   },
   {
     id: "client-3",
-    logo: coinbase,
+    logo: coinbaselogo,
   },
   {
     id: "client-4",
-    logo: dropbox,
+    logo: coingecko,
   },
-];
+  {
+    id: "client-5",
+    logo: cryptocom
+  },
+];  
